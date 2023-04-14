@@ -145,6 +145,7 @@ namespace ExcelExample
                             catch (Exception ex)
                             {
                                 Console.WriteLine($"Se produjo un error este es el Message: {ex.Message} y  este es el StackTrace :{ex.StackTrace}");
+                                Console.WriteLine($"Verificar que el archivo esté creado en esta ruta {filePath}");
                                 Console.ReadLine();
                             }
                         }
